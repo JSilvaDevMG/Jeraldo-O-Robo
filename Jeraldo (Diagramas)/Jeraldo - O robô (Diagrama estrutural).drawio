@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="3atuvqWNW7guNebl7cNm">
+    <mxGraphModel dx="860" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rGXCRGwOLta3DsiH14BX-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Jogador" vertex="1">
+          <mxGeometry height="160" width="160" x="330" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="rGXCRGwOLta3DsiH14BX-2" parent="rGXCRGwOLta3DsiH14BX-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- vidaJogador&lt;div&gt;- componentesJogador&lt;/div&gt;&lt;div&gt;- posicaoJogador&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rGXCRGwOLta3DsiH14BX-3" parent="rGXCRGwOLta3DsiH14BX-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rGXCRGwOLta3DsiH14BX-4" parent="rGXCRGwOLta3DsiH14BX-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ mover_jeraldo&lt;div&gt;+ coletar_bugs&lt;/div&gt;&lt;div&gt;+ coletar_eletronico&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="160" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="B1cEc8Yg3FCYL6IjZbMH-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Sistema" vertex="1">
+          <mxGeometry height="300" width="160" x="560" y="360" as="geometry">
+            <mxRectangle height="30" width="80" x="560" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1cEc8Yg3FCYL6IjZbMH-6" parent="B1cEc8Yg3FCYL6IjZbMH-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- larguramapa int&lt;div&gt;- alturamapa int&lt;br&gt;&lt;div&gt;- itens str&lt;/div&gt;&lt;div&gt;- servidor str&lt;/div&gt;&lt;div&gt;- jogador str&lt;/div&gt;&lt;div&gt;- numeroVidas int&lt;/div&gt;&lt;div&gt;- numeroComp int&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="114" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B1cEc8Yg3FCYL6IjZbMH-7" parent="B1cEc8Yg3FCYL6IjZbMH-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="B1cEc8Yg3FCYL6IjZbMH-8" parent="B1cEc8Yg3FCYL6IjZbMH-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ gerar_mapa ()&lt;div&gt;+ gerar_comp ()&lt;/div&gt;&lt;div&gt;+ gerar_bugs ()&lt;/div&gt;&lt;div&gt;+ posicionar_servidor ()&lt;/div&gt;&lt;div&gt;+ posicionar_jogador ()&lt;/div&gt;&lt;div&gt;+ registrar_componentes ()&lt;/div&gt;&lt;div&gt;+ verificar_componentes ()&lt;/div&gt;&lt;div&gt;+ registrar_vidas ()&lt;/div&gt;&lt;div&gt;+ verificar_vidas ()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="152" width="160" y="148" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
